@@ -1,6 +1,7 @@
 # EOSIO-chain-up
 
-## step 1 modify docker_run.sh,change the base info
+## step 1 modify docker_run.sh and config/ 
+change the base info
 ## step 2 run docker_run.sh
 ``` ./docker_run.sh ```
 

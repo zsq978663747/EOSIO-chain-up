@@ -55,12 +55,6 @@ sleep 1
 # setp 8: setting privileged account for eosio.msig
 
 cleos $URL push action eosio setpriv '{"account": "eosio.msig", "is_priv": 1}' -p eosio
-
-sleep 1
-
-# setp 8: setting privileged account for eosio.msig
-
-cleos $URL push action eosio setpriv '{"account": "eosio.msig", "is_priv": 1}' -p eosio
 sleep 3
 # step 9: set contract eosio.system
 
